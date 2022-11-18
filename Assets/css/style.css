@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+ 
+    padding: 20px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    
+  
+
+}
+
+
+#top-section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    border: crimson;
+    color: white;
+    
+  }
+
+.name {
+   display: inline;
+   margin-left: 10px;
+   text-align: center;
+   font-size: 65px;
+   /*  if you want a background border like the example you can add this but I did not like the look!
+   background-color: crimson;
+   */
+
+}
+  
+
+.toolbar {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    text-align: right;
+    color: aliceblue;
+
+}
+
+.button {
+  border: crimson;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 6px;
+  cursor: pointer;
+  /* I added a background to make it look like a button */
+  background-color: crimson;
+}
+
+.inbutton {
+    color: #ffffff;
+/* I didn't want the under line like image so I added this to make it look like clean button*/
+    text-decoration: none;
+}
+
+#filler { 
+    position: relative;
+    height: 480px;
+    width: 100%;
+    border: crimson;
+    background-image: url(../../Images/banner.jpg);
+    background-repeat: repeat;
+    margin: auto;
+
+
+}
+
+#subtitle {
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    top: 78%;
+    right: 5%;
+    border: crimson;
+    background-color: crimson;
+    padding: 15px 32px;
+    
+}
+
+main {
+    
+
+   width: 100%;
+   
+   
+ 
+   
+  }
+
+ aside {
+        position: relative;
+        left: 25px;
+      
+        top: 46px; 
+        font-size: 40px;
+  }
+
+
+
+.content {
+    position: relative;
+    left: 280px;
+    border-left:1px solid black;
+    padding: 20px;
+    
+    width: 1500px;
+    height: 500px;
+    
+
+} 
+
+
+.content2 {
+    position: relative;
+    left: 280px;
+    border-left:1px solid black;
+    padding: 20px;
+    
+    width: 1500px;
+    height: 2000px;
+    
+   
+    
+} 
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.item1{
+    width: 1255px;
+    height: 900px;
+    margin: 30px;
+    border: 5px solid black;
+}
+
+.items2 {
+    width: 600px;
+    height: 450px;
+    margin: 30px;
+    border: 5px solid black;
+
+}
+
+
+.footer {
+    position: relative;
+    left: 280px;
+    border-left:1px solid black;
+    padding: 20px;
+    
+    width: 1500px;
+    height: 120px;
+   
+
+}
+.list {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 10px;
+    list-style: none;
+    color: black;
+ 
+}
+
+.links{
+    
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+   
+}
+
+.fig {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 25px;
+    position: absolute;
+    left:50px;
+    top: 800px;
+    text-decoration: none;
+
+}
+.fig1{
+    background-color: black;
+    color: white;
+    font-style: italic;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 25px;
+    position: absolute;
+    left:50px;
+    top: 1300px;
+    text-decoration: none;
+    
+}
+
+.fig2 {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 25px;
+    position: absolute;
+    left:710px;
+    top: 1300px;
+    text-decoration: none;
+}
+
+.fig3 {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 25px;
+    position: absolute;
+    left: 50px;px;
+    top: 1800px;
+    text-decoration: none;
+}
+.fig4 {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 25px;
+    position: absolute;
+    left: 710px;px;
+    top: 1800px;
+    text-decoration: none;
+}
+
+box1:hover {
+
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    
+}
